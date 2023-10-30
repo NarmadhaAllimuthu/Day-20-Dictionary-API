@@ -1,0 +1,135 @@
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+ hr{
+    height: 2px;
+    background-color: yellowgreen;
+    width:10%;
+    border-radius: 10px;
+   
+ } 
+
+p{
+    font-size:1.3em;
+    text-align: center;
+    font-style: italic; font-family: "Playfair Display","Bookman",serif;
+    color: gray; letter-spacing:-0.005em; word-spacing:1px;
+}
+
+
+
+label{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#speech{
+    font-size: 30px;
+  
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.text-monospace{
+    font-size: 22px;
+}
+
+
+.font-weight-normal{
+ text-indent: 100px;
+}
+
+
+.font-weight-light{
+    text-indent: 50px;
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+body{
+   background-image: url("https://media.istockphoto.com/id/671101136/photo/business-and-education-background.webp?b=1&s=170667a&w=0&k=20&c=R4e4yhOo5_W_X2RvSab-eMmzp5KFIYZ6U3Z45IpEppo=");
+   background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+
+#result {
+    display: none;                 /* Initially hide the result container */
+    /* width: 600px;                   Set the desired width */
+    overflow: auto;                  /* Add a scrollbar if the content exceeds the width */
+    /* max-height: 400px;   */
+    margin-top: 30px;             /* Set a maximum height for scrolling if needed */
+    border: 1px solid #ccc;         /* Add a border for a clean look */
+    padding: 10px;                    /* Add some padding for spacing */
+  }
+
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    color:magenta;
+    background-color: aliceblue;
+    width: 320px;
+    letter-spacing: 1px;
+    text-indent: 10px;
+}
+
+
+.text-lg-left{
+    background-color:lightblue;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+h3{
+    text-decoration: underline;
+    font-style: oblique;
+    text-indent: 10px;
+    margin-bottom: 10px;
+}
+
+
+h4{
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+
+h5{
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-indent: 80px;
+}
+
+h6{
+    text-align: center;
+}
+
+#button:hover{
+  background-color: green;
+  box-shadow: 5px 5px 20px darkgreen;
+  box-sizing: 50px;
+}
+
+
+
+
+
+
+
+
